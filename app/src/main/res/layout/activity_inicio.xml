@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondo_inicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tituloApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestión de Empleados"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnVerEmpleados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver empleados registrados"
+        android:backgroundTint="#BB86FC"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/btn_morado_redondo"/>
+</LinearLayout>

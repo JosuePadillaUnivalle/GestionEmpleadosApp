@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GestionEmpleadosApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Personaliza tu tema -->
+        <item name="colorPrimary">@color/deep_purple_500</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="toolbarStyle">@style/CustomToolbar</item>
+    </style>
+
+    <style name="Theme.GestionEmpleadosApp" parent="Base.Theme.GestionEmpleadosApp" />
+
+    <!-- Estilo personalizado para Toolbar -->
+    <style name="CustomToolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/deep_purple_500</item>
+        <item name="android:titleTextColor">@android:color/white</item>
+        <item name="titleTextAppearance">@style/ToolbarTitle</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

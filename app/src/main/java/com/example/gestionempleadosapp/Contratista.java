@@ -17,9 +17,15 @@ public class Contratista extends Empleado {
 
     @Override
     public String obtenerInformacion() {
-        return "Contratista:\nNombre: " + getNombreCompleto() +
-                "\nID: " + id +
-                "\nSalario: " + calcularSalario();
+        return "Contratista:\n"
+                + "Nombre: " + getNombreCompleto() + "\n"
+                + "ID: " + getId() + "\n"
+                + "Departamento: " + getDepartamento() + "\n"
+                + "Años de experiencia: " + getAniosExperiencia() + "\n"
+                + "Duración del contrato (meses): " + duracionContrato + "\n"
+                + "Tarifa del proyecto: " + tarifaProyecto + "\n"
+                + "Salario: " + calcularSalario();
     }
+
 
 }

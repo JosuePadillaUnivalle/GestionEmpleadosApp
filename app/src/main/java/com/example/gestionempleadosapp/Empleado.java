@@ -36,9 +36,9 @@ public abstract class Empleado {
         return aniosExperiencia;
     }
 
-    // NUEVO: Devuelve nombre completo (si tuvieras nombre + apellido en una sola propiedad)
+
     public String getNombreCompleto() {
-        return nombre; // Si tienes nombre + apellido junto, aquí basta
+        return nombre;
     }
 
     public abstract double calcularSalario();

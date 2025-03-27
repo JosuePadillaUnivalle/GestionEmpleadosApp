@@ -17,8 +17,14 @@ public class EmpleadoMedioTiempo extends Empleado {
 
     @Override
     public String obtenerInformacion() {
-        return "Empleado Medio Tiempo:\nNombre: " + getNombreCompleto() +
-                "\nID: " + getId() +
-                "\nSalario: " + calcularSalario();
+        return "Empleado Medio Tiempo:\n"
+                + "Nombre: " + getNombreCompleto() + "\n"
+                + "ID: " + getId() + "\n"
+                + "Departamento: " + getDepartamento() + "\n"
+                + "Años de experiencia: " + getAniosExperiencia() + "\n"
+                + "Horas Semanales: " + horasSemanales + "\n"
+                + "Tarifa por Hora: " + tarifaHora + "\n"
+                + "Salario: " + calcularSalario();
     }
+
 }

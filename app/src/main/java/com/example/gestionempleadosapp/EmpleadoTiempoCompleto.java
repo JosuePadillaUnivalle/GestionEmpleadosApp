@@ -15,8 +15,14 @@ public class EmpleadoTiempoCompleto extends Empleado {
 
     @Override
     public String obtenerInformacion() {
-        return "Empleado Tiempo Completo:\nNombre: " + getNombreCompleto() +
-                "\nID: " + getId() +
-                "\nSalario: " + calcularSalario();
+        return "Empleado Tiempo Completo:\n"
+                + "Nombre: " + getNombreCompleto() + "\n"
+                + "ID: " + getId() + "\n"
+                + "Departamento: " + getDepartamento() + "\n"
+                + "Años de experiencia: " + getAniosExperiencia() + "\n"
+                + "Salario Base: " + getSalarioBase() + "\n"
+                + "Bonificación Anual: " + bonificacionAnual + "\n"
+                + "Salario: " + calcularSalario();
     }
+
 }
